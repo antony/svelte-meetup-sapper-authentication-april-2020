@@ -1,7 +1,7 @@
 <div class="slide alt0">
   <h4>Flash of Content</h4>
 
-  <div class="image">
+  <div class="diagram">
     {@html browser}
   </div>
 </div>

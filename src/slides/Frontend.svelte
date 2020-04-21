@@ -1,9 +1,10 @@
 <div class="slide alt1">
   <h4>The Frontend</h4>
 
-<!-- diagram -->
+  <h5>An SSR enabled client built in Sapper</h5>
+
   <ul>
-    <li>Built in Sapper</li>
+    <li>Uses browser built-ins (fetch) + Sapper's isomorphic "this.fetch"</li>
     <li>Requests login session from API and recieves a cookie containing a JWT</li>
     <li>The browser sees the cookie and stores it</li>
     <li>The server-side (SSR) decodes the cookie</li>

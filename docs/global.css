@@ -116,14 +116,22 @@ ul li {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.alt5 {
+  background-color: #303030;
+  color: #FB0048;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+}
+
 pre {
   font-family: 'Source Code Pro';
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
   background-color: #303030;
   color: #fff;
   border: 25px solid #303030;
   border-top: 4px;
   margin: 0.4rem 0;
+  border-radius: 5px;
 }
 
 pre > .component-name {
@@ -133,9 +141,11 @@ pre > .component-name {
   font-size: 1rem;
   color: lightskyblue;
   text-align: right;
+  margin-top: 10px;
 }
 
 .columns {
+  display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
@@ -161,4 +171,9 @@ a:hover {
 .notes {
   font-size: 1.25rem;
   color: #000;
+}
+
+.diagram {
+  display: flex;
+  justify-content: center;
 }

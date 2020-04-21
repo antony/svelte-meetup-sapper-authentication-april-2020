@@ -1,8 +1,9 @@
 <div class="slide alt1">
-  <h4>The API</h4>
+  <h4>The Backend</h4>
+
+  <h5>An API built in HapiJS</h5>
 
   <ul>
-    <li>Built in Hapi</li>
     <li>Robust hapi-auth-jwt2 plugin</li>
     <li>Default authentication strategy is JWT</li>
     <li>Three routes, create session, retrieve user info, and delete session</li>

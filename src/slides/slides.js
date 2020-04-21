@@ -3,7 +3,7 @@ import Why from './Why.svelte'
 import WhyTricky from './WhyTricky.svelte'
 import WhatIsFoc from './WhatIsFoc.svelte'
 import Architecture from './Architecture.svelte'
-import TechStack from './TechStack.svelte'
+import WhyJwt from './WhyJwt.svelte'
 import Backend from './Backend.svelte'
 import Frontend from './Frontend.svelte'
 import TheSessionStore from './TheSessionStore.svelte'
@@ -17,7 +17,7 @@ export default [
   WhyTricky,
   WhatIsFoc,
   Architecture,
-  TechStack,
+  WhyJwt,
   Backend,
   Frontend,
   TheSessionStore,
