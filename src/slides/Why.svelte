@@ -2,16 +2,16 @@
   <h4>Why?</h4>
 
   <ul>
-    <li>No passing props &amp; stores down the hierarchy</li>
-    <li>Top-driven state, single data flow direction</li>
-    <li>Stores don't work well in .js files</li>
-    <li>Stop multiple instances of a component conflicting</li>
+    <li>Authentication is a common requirement</li>
+    <li>SSR involves a little more thinking</li>
+    <li>A lot of existing solutions only consider the client-side</li>
+    <li>Hard to build a generic plug-in</li>
   </ul>
 </div>
 
 <ul class="notes">
-  <li>Don't litter code with props, stores are hard to pass - dollar, no dollar</li>
-  <li>Bi-directional data is harder to reason about</li>
-  <li>Subscriptions don't work well - how do you unsubscribe</li>
-  <li>Unique keys mean no crossover</li>
+  <li>Something a lot of apps need</li>
+  <li>authenticate the server, source of truth</li>
+  <li>tutorials and blogs</li>
+  <li>boilerplates, seeds, nice to know how it *works*</li>
 </ul>

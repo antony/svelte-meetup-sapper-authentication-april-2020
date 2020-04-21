@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs'
 import livereload from 'rollup-plugin-livereload'
 import { terser } from 'rollup-plugin-terser'
 import hmr, { autoCreate } from 'rollup-plugin-hot'
+import svg from 'rollup-plugin-svg'
 
 // Set this to true to pass the --single flag to sirv (this serves your
 // index.html for any unmatched route, which is a requirement for SPA
@@ -71,6 +72,7 @@ export default {
       // rollup-plugin-svelte-hot automatically resolves & dedup svelte
     }),
     commonjs(),
+    svg(),
 
     // In dev mode, call `npm run start:dev` once
     // the bundle has been generated
