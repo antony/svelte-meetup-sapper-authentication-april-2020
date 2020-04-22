@@ -1,4 +1,4 @@
-<div class="slide alt1">
+<div class="slide alt0">
   <h4>The session store</h4>
 
   <ul>

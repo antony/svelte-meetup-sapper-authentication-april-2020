@@ -18,7 +18,11 @@
       }
     }
 
-    keys[code] && keys[code]()
+    if (keys[code]) {
+      keys[code]()
+    } else {
+      bcast.postMessage(`key:${code}`)
+    }
   }
 
   onDestroy(() => {

@@ -31,7 +31,7 @@
     margin-right: -4.4%;
   }
 
-  li {
+  .fancy-ul li {
     margin: 1vh 0;
     padding: 2vh 3%;
     background-color: #0f0f0f;
@@ -41,22 +41,22 @@
     margin-right: -80vw;
   }
 
-  li:nth-child(1) {
+  .fancy-ul li:nth-child(1) {
     border-left: 1vw solid #FB0048;
     animation-delay: 1s;
   }
 
-  li:nth-child(2) {
+  .fancy-ul li:nth-child(2) {
     border-left: 1vw solid #13E708;
     animation-delay: 2s;
   }
 
-  li:nth-child(3) {
+  .fancy-ul li:nth-child(3) {
     border-left: 1vw solid #4d4dff;
     animation-delay: 3s;
   }
 
-  li:nth-child(4) {
+  .fancy-ul li:nth-child(4) {
     border-left: 1vw solid #fff;
     animation-delay: 4s;
   }

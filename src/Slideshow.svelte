@@ -1,5 +1,5 @@
 <div class="slideshow">
-  <svelte:component this={$store.slides[$store.index]}></svelte:component>
+  <svelte:component bind:this={currentSlide} this={$store.slides[$store.index]}></svelte:component>
   <span class="pagination">
     {$store.index + 1} / {$store.slides.length}
   </span>
@@ -12,7 +12,11 @@
 
   const bcast = new BroadcastChannel('svelte-present')
 
+  let currentSlide
+
   bcast.onmessage = function (e) {
+    const [ msg, meta ] = e.data.split(':')
+    console.log(e.data, msg, meta)
     const directions = {
       next: () => {
         const currentIndex = $store.index
@@ -21,12 +25,22 @@
       previous: () => {
         const currentIndex = $store.index
         $store.index = currentIndex < 1 ? currentIndex : currentIndex - 1
+      },
+      key: (meta) => {
+        currentSlide.handleKey && currentSlide.handleKey(meta)
       }
     }
-    directions[e.data] && directions[e.data]()
+
+    directions[msg] && directions[msg](meta)
   }
 
   onDestroy(() => {
     bcast.close()
   })
 </script>
+
+<style>
+  .slideshow {
+    overflow: hidden;
+  }
+</style>
