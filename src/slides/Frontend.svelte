@@ -15,8 +15,8 @@
 </div>
 
 <ul class="notes">
-  <li>SSR (Server-side) able to see cookie</li>
-  <li>SSR pre-seeds the session via middleware</li>
+  <li>SSR sees cookie</li>
+  <li>SSR pre-seeds session</li>
   <li>Server-side is a source of truth</li>
 </ul>
 
