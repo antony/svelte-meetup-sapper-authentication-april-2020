@@ -12,13 +12,6 @@
   <li>never give a FOC</li>
 </ul>
 
-<style>
-  .image {
-    display: flex;
-    justify-content: center;
-  }
-</style>
-
 <script>
   import { onMount } from 'svelte'
   import browser from './browser.svg'

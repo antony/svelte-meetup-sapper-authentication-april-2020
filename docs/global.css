@@ -63,7 +63,7 @@ h3 {
 h4 {
   font-family: 'Lobster';
   font-size: 5rem;
-  margin: 1rem 0;
+  margin: 0;
 
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
 }
@@ -89,36 +89,58 @@ ul li {
 .alt0 {
   background-color: #FB0048;
   color: #fff;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+}
+
+.alt0 h4,
+.alt0 h1,
+.alt0 h3,
+.alt0 h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .alt1 {
   background-color: #13E708;
   color: #303030;
+}
+
+.alt1 h4 {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
 
 .alt2 {
   background-color: #FFC300;
   color: #303030;
+}
+
+.alt2 h4 {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
 
 .alt3 {
   color: #fff;
   background-color: #4d4dff;
-  text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+}
+
+.alt3 h4 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .alt4 {
   color: #303030;
   background-color: #fff;
+}
+
+.alt5 h4,
+.alt5 h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .alt5 {
   background-color: #303030;
   color: #FB0048;
+}
+
+.alt5 h4 {
   text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
 }
 

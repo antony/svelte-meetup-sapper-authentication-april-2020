@@ -3,7 +3,7 @@
 
   <h5>An MVP to demonstrate simple authentication with JWT</h5>
   
-  <div class="diagram">
+  <div class="architecture diagram">
   {@html architecture}
   </div>
 </div>
@@ -25,3 +25,9 @@
 <script>
   import architecture from './architecture.svg'
 </script>
+
+<style>
+  :global(.diagram.architecture svg) {
+    width: 40vw;
+  }
+</style>
