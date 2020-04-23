@@ -9,11 +9,11 @@
 
 <ul class="notes">
   <li>Identity platforms</li>
-  <li>Outsource your entire authentication model</li>
-  <li>Use various SSO providers with one click</li>
-  <li>Handles all sorts of password reset journeys</li>
+  <li>Outsource</li>
+  <li>SSO Providers</li>
+  <li>Password Reset</li>
   <li>blog post</li>
-  <li>Very quick to integrate if you are happy with a less "integrated" experience</li>
+  <li>"integrated" experience</li>
 </ul>
 
 <style>

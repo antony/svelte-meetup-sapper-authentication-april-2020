@@ -27,8 +27,8 @@
 </div>
 
 <ul class="notes">
+  <li>CTO of Beyonk - furloughed</li>
   <li>Svelte Maintainer</li>
-  <li>CTO of Beyonk</li>
   <li>Authentication in Sapper can be tricky!</li>
   <li>A lot of people implement "auth" only client-side</li>
 </ul>

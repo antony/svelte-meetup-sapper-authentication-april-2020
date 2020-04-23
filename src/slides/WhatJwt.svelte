@@ -7,9 +7,7 @@
 </div>
 
 <ul class="notes">
-  <li>auth token</li>
-  <li>comprised of three parts - header, payload, signature</li>
-  <li>Readable, editable client-side, no secret keys needed - signature validates integrity</li>
+  <li>integrity validation</li>
   <li>JWT is your session</li>
 </ul>
 

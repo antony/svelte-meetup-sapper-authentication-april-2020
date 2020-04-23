@@ -28,6 +28,8 @@
 </div>
 
 <ul class="notes">
+  <li>Thankyou for listening</li>
+  <li>Presentation and Demo linked</li>
 </ul>
 
 <style>

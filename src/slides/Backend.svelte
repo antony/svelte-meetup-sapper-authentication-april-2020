@@ -13,8 +13,8 @@
 </div>
 
 <ul class="notes">
-  <li>Secure operations always happen in the API</li>
-  <li>If the signature or JWT isn't valid we can delete it</li>
+  <li>API Handles security</li>
+  <li>Invalid JWT is deleted</li>
 </ul>
 
 <style>
