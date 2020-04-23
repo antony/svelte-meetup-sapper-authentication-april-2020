@@ -1,7 +1,7 @@
 <div class="title alt5">
   <h1>Thank You!</h1>
 
-  <a href="https://antony.github.com/svelte-talk-sapper-authentication-april-2020">https://antony.github.com/svelte-talk-sapper-authentication-april-2020</a>
+  <a href="https://antony.github.io/svelte-meetup-sapper-authentication-april-2020/">https://antony.github.io/svelte-meetup-sapper-authentication-april-2020/</a>
   <a href="https://github.com/antony/sapper-authentication-demo">https://github.com/antony/sapper-authentication-demo</a>
  
   <a href="https://beyonk.com">
