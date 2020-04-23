@@ -10,6 +10,7 @@
 
 <ul class="notes">
   <li>Based on beyonk.com</li>
+  <li>API and Sapper on same domain - cookie seen</li>
   <li>SSR - heavy lifting</li>
   <li>Dumb client</li>
   <li>no seeds or secrets in Sapper</li>
