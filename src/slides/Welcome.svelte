@@ -1,6 +1,6 @@
 <div class="title alt0">
   <h1>Authentication in Sapper</h1>
-  <h2>Svelte Society Online Meetup / April 2020</h2>
+  <h2>Svelte Society Day / 26th April 2020</h2>
   <h3>Antony Jones</h3>
 
   <a href="https://beyonk.com">
